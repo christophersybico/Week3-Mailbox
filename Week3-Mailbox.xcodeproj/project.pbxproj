@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B42E7801BBCFC0B00C0FA94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B42E77F1BBCFC0B00C0FA94 /* AppDelegate.swift */; };
+		0B42E7821BBCFC0B00C0FA94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B42E7811BBCFC0B00C0FA94 /* ViewController.swift */; };
+		0B42E7851BBCFC0B00C0FA94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B42E7831BBCFC0B00C0FA94 /* Main.storyboard */; };
+		0B42E7871BBCFC0B00C0FA94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B42E7861BBCFC0B00C0FA94 /* Assets.xcassets */; };
+		0B42E78A1BBCFC0B00C0FA94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B42E7881BBCFC0B00C0FA94 /* LaunchScreen.storyboard */; };
+		0B42E7951BBCFC0B00C0FA94 /* Week3_MailboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B42E7941BBCFC0B00C0FA94 /* Week3_MailboxTests.swift */; };
+		0B42E7A01BBCFC0B00C0FA94 /* Week3_MailboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B42E79F1BBCFC0B00C0FA94 /* Week3_MailboxUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B42E7911BBCFC0B00C0FA94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B42E7741BBCFC0B00C0FA94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B42E77B1BBCFC0B00C0FA94;
+			remoteInfo = "Week3-Mailbox";
+		};
+		0B42E79C1BBCFC0B00C0FA94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B42E7741BBCFC0B00C0FA94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B42E77B1BBCFC0B00C0FA94;
+			remoteInfo = "Week3-Mailbox";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B42E77C1BBCFC0B00C0FA94 /* Week3-Mailbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Week3-Mailbox.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B42E77F1BBCFC0B00C0FA94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0B42E7811BBCFC0B00C0FA94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0B42E7841BBCFC0B00C0FA94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0B42E7861BBCFC0B00C0FA94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0B42E7891BBCFC0B00C0FA94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0B42E78B1BBCFC0B00C0FA94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B42E7901BBCFC0B00C0FA94 /* Week3-MailboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Week3-MailboxTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B42E7941BBCFC0B00C0FA94 /* Week3_MailboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week3_MailboxTests.swift; sourceTree = "<group>"; };
+		0B42E7961BBCFC0B00C0FA94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B42E79B1BBCFC0B00C0FA94 /* Week3-MailboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Week3-MailboxUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B42E79F1BBCFC0B00C0FA94 /* Week3_MailboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week3_MailboxUITests.swift; sourceTree = "<group>"; };
+		0B42E7A11BBCFC0B00C0FA94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B42E7791BBCFC0B00C0FA94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B42E78D1BBCFC0B00C0FA94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B42E7981BBCFC0B00C0FA94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B42E7731BBCFC0B00C0FA94 = {
+			isa = PBXGroup;
+			children = (
+				0B42E77E1BBCFC0B00C0FA94 /* Week3-Mailbox */,
+				0B42E7931BBCFC0B00C0FA94 /* Week3-MailboxTests */,
+				0B42E79E1BBCFC0B00C0FA94 /* Week3-MailboxUITests */,
+				0B42E77D1BBCFC0B00C0FA94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0B42E77D1BBCFC0B00C0FA94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B42E77C1BBCFC0B00C0FA94 /* Week3-Mailbox.app */,
+				0B42E7901BBCFC0B00C0FA94 /* Week3-MailboxTests.xctest */,
+				0B42E79B1BBCFC0B00C0FA94 /* Week3-MailboxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B42E77E1BBCFC0B00C0FA94 /* Week3-Mailbox */ = {
+			isa = PBXGroup;
+			children = (
+				0B42E77F1BBCFC0B00C0FA94 /* AppDelegate.swift */,
+				0B42E7811BBCFC0B00C0FA94 /* ViewController.swift */,
+				0B42E7831BBCFC0B00C0FA94 /* Main.storyboard */,
+				0B42E7861BBCFC0B00C0FA94 /* Assets.xcassets */,
+				0B42E7881BBCFC0B00C0FA94 /* LaunchScreen.storyboard */,
+				0B42E78B1BBCFC0B00C0FA94 /* Info.plist */,
+			);
+			path = "Week3-Mailbox";
+			sourceTree = "<group>";
+		};
+		0B42E7931BBCFC0B00C0FA94 /* Week3-MailboxTests */ = {
+			isa = PBXGroup;
+			children = (
+				0B42E7941BBCFC0B00C0FA94 /* Week3_MailboxTests.swift */,
+				0B42E7961BBCFC0B00C0FA94 /* Info.plist */,
+			);
+			path = "Week3-MailboxTests";
+			sourceTree = "<group>";
+		};
+		0B42E79E1BBCFC0B00C0FA94 /* Week3-MailboxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0B42E79F1BBCFC0B00C0FA94 /* Week3_MailboxUITests.swift */,
+				0B42E7A11BBCFC0B00C0FA94 /* Info.plist */,
+			);
+			path = "Week3-MailboxUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B42E77B1BBCFC0B00C0FA94 /* Week3-Mailbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B42E7A41BBCFC0B00C0FA94 /* Build configuration list for PBXNativeTarget "Week3-Mailbox" */;
+			buildPhases = (
+				0B42E7781BBCFC0B00C0FA94 /* Sources */,
+				0B42E7791BBCFC0B00C0FA94 /* Frameworks */,
+				0B42E77A1BBCFC0B00C0FA94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Week3-Mailbox";
+			productName = "Week3-Mailbox";
+			productReference = 0B42E77C1BBCFC0B00C0FA94 /* Week3-Mailbox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0B42E78F1BBCFC0B00C0FA94 /* Week3-MailboxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B42E7A71BBCFC0B00C0FA94 /* Build configuration list for PBXNativeTarget "Week3-MailboxTests" */;
+			buildPhases = (
+				0B42E78C1BBCFC0B00C0FA94 /* Sources */,
+				0B42E78D1BBCFC0B00C0FA94 /* Frameworks */,
+				0B42E78E1BBCFC0B00C0FA94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B42E7921BBCFC0B00C0FA94 /* PBXTargetDependency */,
+			);
+			name = "Week3-MailboxTests";
+			productName = "Week3-MailboxTests";
+			productReference = 0B42E7901BBCFC0B00C0FA94 /* Week3-MailboxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0B42E79A1BBCFC0B00C0FA94 /* Week3-MailboxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B42E7AA1BBCFC0B00C0FA94 /* Build configuration list for PBXNativeTarget "Week3-MailboxUITests" */;
+			buildPhases = (
+				0B42E7971BBCFC0B00C0FA94 /* Sources */,
+				0B42E7981BBCFC0B00C0FA94 /* Frameworks */,
+				0B42E7991BBCFC0B00C0FA94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B42E79D1BBCFC0B00C0FA94 /* PBXTargetDependency */,
+			);
+			name = "Week3-MailboxUITests";
+			productName = "Week3-MailboxUITests";
+			productReference = 0B42E79B1BBCFC0B00C0FA94 /* Week3-MailboxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B42E7741BBCFC0B00C0FA94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Christopher Sybico";
+				TargetAttributes = {
+					0B42E77B1BBCFC0B00C0FA94 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					0B42E78F1BBCFC0B00C0FA94 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 0B42E77B1BBCFC0B00C0FA94;
+					};
+					0B42E79A1BBCFC0B00C0FA94 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 0B42E77B1BBCFC0B00C0FA94;
+					};
+				};
+			};
+			buildConfigurationList = 0B42E7771BBCFC0B00C0FA94 /* Build configuration list for PBXProject "Week3-Mailbox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0B42E7731BBCFC0B00C0FA94;
+			productRefGroup = 0B42E77D1BBCFC0B00C0FA94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B42E77B1BBCFC0B00C0FA94 /* Week3-Mailbox */,
+				0B42E78F1BBCFC0B00C0FA94 /* Week3-MailboxTests */,
+				0B42E79A1BBCFC0B00C0FA94 /* Week3-MailboxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B42E77A1BBCFC0B00C0FA94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B42E78A1BBCFC0B00C0FA94 /* LaunchScreen.storyboard in Resources */,
+				0B42E7871BBCFC0B00C0FA94 /* Assets.xcassets in Resources */,
+				0B42E7851BBCFC0B00C0FA94 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B42E78E1BBCFC0B00C0FA94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B42E7991BBCFC0B00C0FA94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B42E7781BBCFC0B00C0FA94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B42E7821BBCFC0B00C0FA94 /* ViewController.swift in Sources */,
+				0B42E7801BBCFC0B00C0FA94 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B42E78C1BBCFC0B00C0FA94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B42E7951BBCFC0B00C0FA94 /* Week3_MailboxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B42E7971BBCFC0B00C0FA94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B42E7A01BBCFC0B00C0FA94 /* Week3_MailboxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B42E7921BBCFC0B00C0FA94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B42E77B1BBCFC0B00C0FA94 /* Week3-Mailbox */;
+			targetProxy = 0B42E7911BBCFC0B00C0FA94 /* PBXContainerItemProxy */;
+		};
+		0B42E79D1BBCFC0B00C0FA94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B42E77B1BBCFC0B00C0FA94 /* Week3-Mailbox */;
+			targetProxy = 0B42E79C1BBCFC0B00C0FA94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0B42E7831BBCFC0B00C0FA94 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B42E7841BBCFC0B00C0FA94 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0B42E7881BBCFC0B00C0FA94 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B42E7891BBCFC0B00C0FA94 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0B42E7A21BBCFC0B00C0FA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0B42E7A31BBCFC0B00C0FA94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B42E7A51BBCFC0B00C0FA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Week3-Mailbox/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "balimco.Week3-Mailbox";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0B42E7A61BBCFC0B00C0FA94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Week3-Mailbox/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "balimco.Week3-Mailbox";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0B42E7A81BBCFC0B00C0FA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Week3-MailboxTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "balimco.Week3-MailboxTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Week3-Mailbox.app/Week3-Mailbox";
+			};
+			name = Debug;
+		};
+		0B42E7A91BBCFC0B00C0FA94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Week3-MailboxTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "balimco.Week3-MailboxTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Week3-Mailbox.app/Week3-Mailbox";
+			};
+			name = Release;
+		};
+		0B42E7AB1BBCFC0B00C0FA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Week3-MailboxUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "balimco.Week3-MailboxUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Week3-Mailbox";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		0B42E7AC1BBCFC0B00C0FA94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Week3-MailboxUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "balimco.Week3-MailboxUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Week3-Mailbox";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B42E7771BBCFC0B00C0FA94 /* Build configuration list for PBXProject "Week3-Mailbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B42E7A21BBCFC0B00C0FA94 /* Debug */,
+				0B42E7A31BBCFC0B00C0FA94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B42E7A41BBCFC0B00C0FA94 /* Build configuration list for PBXNativeTarget "Week3-Mailbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B42E7A51BBCFC0B00C0FA94 /* Debug */,
+				0B42E7A61BBCFC0B00C0FA94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0B42E7A71BBCFC0B00C0FA94 /* Build configuration list for PBXNativeTarget "Week3-MailboxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B42E7A81BBCFC0B00C0FA94 /* Debug */,
+				0B42E7A91BBCFC0B00C0FA94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0B42E7AA1BBCFC0B00C0FA94 /* Build configuration list for PBXNativeTarget "Week3-MailboxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B42E7AB1BBCFC0B00C0FA94 /* Debug */,
+				0B42E7AC1BBCFC0B00C0FA94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B42E7741BBCFC0B00C0FA94 /* Project object */;
+}
