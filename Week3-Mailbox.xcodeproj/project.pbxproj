@@ -14,6 +14,7 @@
 		0B42E78A1BBCFC0B00C0FA94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B42E7881BBCFC0B00C0FA94 /* LaunchScreen.storyboard */; };
 		0B42E7951BBCFC0B00C0FA94 /* Week3_MailboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B42E7941BBCFC0B00C0FA94 /* Week3_MailboxTests.swift */; };
 		0B42E7A01BBCFC0B00C0FA94 /* Week3_MailboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B42E79F1BBCFC0B00C0FA94 /* Week3_MailboxUITests.swift */; };
+		0B42E7AE1BBCFD0200C0FA94 /* MailboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B42E7AD1BBCFD0200C0FA94 /* MailboxViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		0B42E79B1BBCFC0B00C0FA94 /* Week3-MailboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Week3-MailboxUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B42E79F1BBCFC0B00C0FA94 /* Week3_MailboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week3_MailboxUITests.swift; sourceTree = "<group>"; };
 		0B42E7A11BBCFC0B00C0FA94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B42E7AD1BBCFD0200C0FA94 /* MailboxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailboxViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				0B42E7831BBCFC0B00C0FA94 /* Main.storyboard */,
 				0B42E7861BBCFC0B00C0FA94 /* Assets.xcassets */,
 				0B42E7881BBCFC0B00C0FA94 /* LaunchScreen.storyboard */,
+				0B42E7AD1BBCFD0200C0FA94 /* MailboxViewController.swift */,
 				0B42E78B1BBCFC0B00C0FA94 /* Info.plist */,
 			);
 			path = "Week3-Mailbox";
@@ -257,6 +260,7 @@
 			files = (
 				0B42E7821BBCFC0B00C0FA94 /* ViewController.swift in Sources */,
 				0B42E7801BBCFC0B00C0FA94 /* AppDelegate.swift in Sources */,
+				0B42E7AE1BBCFD0200C0FA94 /* MailboxViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
