@@ -195,6 +195,7 @@
 				TargetAttributes = {
 					0B42E77B1BBCFC0B00C0FA94 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = V32Q7L73GY;
 					};
 					0B42E78F1BBCFC0B00C0FA94 = {
 						CreatedOnToolsVersion = 7.0;
@@ -400,10 +401,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Week3-Mailbox/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "balimco.Week3-Mailbox";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -411,10 +415,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Week3-Mailbox/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "balimco.Week3-Mailbox";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -485,6 +492,7 @@
 				0B42E7A61BBCFC0B00C0FA94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0B42E7A71BBCFC0B00C0FA94 /* Build configuration list for PBXNativeTarget "Week3-MailboxTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +501,7 @@
 				0B42E7A91BBCFC0B00C0FA94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0B42E7AA1BBCFC0B00C0FA94 /* Build configuration list for PBXNativeTarget "Week3-MailboxUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +510,7 @@
 				0B42E7AC1BBCFC0B00C0FA94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -16,6 +16,10 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="65"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="intro" id="U0U-Vp-cTT" userLabel="Background">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="pux-mx-Br7" userLabel="Email List Scroll View">
                                 <rect key="frame" x="0.0" y="65" width="320" height="1279"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -28,10 +32,57 @@
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="37"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </imageView>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="feed" id="iIr-3x-Hre">
-                                        <rect key="frame" x="0.0" y="77" width="320" height="1202"/>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="feed" id="iIr-3x-Hre" userLabel="Other Emails">
+                                        <rect key="frame" x="0.0" y="163" width="320" height="1202"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </imageView>
+                                    <view contentMode="scaleToFill" id="H4B-IX-iF7" userLabel="Email List Bg">
+                                        <rect key="frame" x="0.0" y="77" width="320" height="86"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.88627450980392153" green="0.88627450980392153" blue="0.88627450980392153" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="tBV-4I-Jjf" userLabel="Emai List">
+                                        <rect key="frame" x="0.0" y="77" width="320" height="86"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" id="J0s-BI-68G" userLabel="Archive &amp; Delete Icon">
+                                                <rect key="frame" x="18" y="30" width="25" height="25"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="archive_icon" id="LHf-Qz-vSh">
+                                                        <rect key="frame" x="0.0" y="0.0" width="25" height="25"/>
+                                                        <autoresizingMask key="autoresizingMask"/>
+                                                    </imageView>
+                                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="delete_icon" id="QgZ-En-zxz">
+                                                        <rect key="frame" x="0.0" y="0.0" width="25" height="25"/>
+                                                        <autoresizingMask key="autoresizingMask"/>
+                                                    </imageView>
+                                                </subviews>
+                                            </view>
+                                            <view contentMode="scaleToFill" id="8CS-M8-ZBB" userLabel="Later &amp; List Icon">
+                                                <rect key="frame" x="277" y="30" width="25" height="25"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="later_icon" id="osV-iX-Xoo" userLabel="Later Icon">
+                                                        <rect key="frame" x="0.0" y="0.0" width="25" height="25"/>
+                                                        <autoresizingMask key="autoresizingMask"/>
+                                                    </imageView>
+                                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="list_icon" id="BCk-cl-XC7" userLabel="List Icon">
+                                                        <rect key="frame" x="0.0" y="0.0" width="25" height="25"/>
+                                                        <autoresizingMask key="autoresizingMask"/>
+                                                    </imageView>
+                                                </subviews>
+                                            </view>
+                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="message" id="YQD-Ac-OaI" userLabel="Email Row">
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="86"/>
+                                                <autoresizingMask key="autoresizingMask"/>
+                                                <gestureRecognizers/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="GEO-5S-ihy" appends="YES" id="13U-Ju-5gt"/>
+                                                </connections>
+                                            </imageView>
+                                        </subviews>
+                                    </view>
                                 </subviews>
                             </scrollView>
                         </subviews>
@@ -40,17 +91,38 @@
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="1344"/>
                     <connections>
+                        <outlet property="archiveDeleteIconWrapperView" destination="J0s-BI-68G" id="nBk-ZD-cBU"/>
+                        <outlet property="archiveIconImageView" destination="LHf-Qz-vSh" id="33a-rB-emL"/>
+                        <outlet property="deleteIconImageView" destination="QgZ-En-zxz" id="ZBJ-3U-9D7"/>
+                        <outlet property="emailKayenImageView" destination="YQD-Ac-OaI" id="Xdk-yA-6d8"/>
+                        <outlet property="emailListBgView" destination="H4B-IX-iF7" id="y4h-uG-NhI"/>
                         <outlet property="emailListScrollView" destination="pux-mx-Br7" id="ZmD-4j-qKl"/>
+                        <outlet property="emailListView" destination="tBV-4I-Jjf" id="d6r-Mz-Rzc"/>
+                        <outlet property="laterIconImageView" destination="osV-iX-Xoo" id="vug-Y8-fFG"/>
+                        <outlet property="laterListIconWrapperView" destination="8CS-M8-ZBB" id="9jf-30-h1Z"/>
+                        <outlet property="listIconImageView" destination="BCk-cl-XC7" id="s2B-Ob-5M3"/>
+                        <outlet property="otherEmailImageView" destination="iIr-3x-Hre" id="0Gx-sF-6nh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="GEO-5S-ihy">
+                    <connections>
+                        <action selector="didPin:" destination="BYZ-38-t0r" id="j93-e2-dLm"/>
+                    </connections>
+                </panGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="287" y="621.5"/>
+            <point key="canvasLocation" x="287" y="621"/>
         </scene>
     </scenes>
     <resources>
+        <image name="archive_icon" width="25" height="25"/>
+        <image name="delete_icon" width="25" height="25"/>
         <image name="feed" width="320" height="1202"/>
         <image name="help_label" width="320" height="37"/>
+        <image name="intro" width="320" height="568"/>
+        <image name="later_icon" width="25" height="25"/>
+        <image name="list_icon" width="25" height="25"/>
+        <image name="message" width="320" height="86"/>
         <image name="nav" width="320" height="65"/>
         <image name="search" width="320" height="42"/>
     </resources>
